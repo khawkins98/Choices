@@ -119,7 +119,7 @@ Or include Choices directly:
       activeState: 'is-active',
       focusState: 'is-focused',
       openState: 'is-open',
-      disabledState: 'is-disaqbled',
+      disabledState: 'is-disabled',
       highlightedState: 'is-highlighted',
       hiddenState: 'is-hidden',
       flippedState: 'is-flipped',
@@ -127,8 +127,9 @@ Or include Choices directly:
       noResults: 'has-no-results',
       noChoices: 'has-no-choices'
     },
-    // Choices uses the great Fuse library for searching. You
-    // can find more options here: https://github.com/krisk/Fuse#options
+    // Choices uses the great Fuse library for searching. 
+    // Fuse options: https://github.com/krisk/Fuse#options
+    // Version in use: v2.2.2, https://github.com/krisk/Fuse/blob/master/CHANGELOG.md
     fuseOptions: {
       include: 'score'
     },
